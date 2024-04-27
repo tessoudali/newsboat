@@ -12,7 +12,7 @@
 #
 # For now, this Dockerfile can only be used in our CI.
 
-FROM ubuntu:23.04
+FROM ubuntu:mantic-20240416
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH /home/builder/.cargo/bin:$PATH
